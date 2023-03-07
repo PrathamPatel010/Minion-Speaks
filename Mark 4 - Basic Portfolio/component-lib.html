@@ -3,10 +3,11 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Component Library</title>
+    <title>Pratham Patel</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
 </head>
 
 <body>
@@ -36,75 +37,83 @@
     <hr>
 
     <h2>@links</h2>
-    <a href="https://google.com">Primary link</a>
-    <a href="https://bing.com">Secondary link</a>
+    <a class="link link-primary" href="https://google.com">Primary link</a>
+    <a class="link link-secondary" href="https://bing.com">Secondary link</a>
     <hr>
 
     <h2>@Lists</h2>
     <h3>Unordered List</h3>
-    <ul>
+    <ul class="list-non-bullet">
         <li>Item one</li>
         <li>Item Two</li>
         <li>Item three</li>
     </ul>
 
     <h3>Unordered Inline List</h3>
-    <ul>
-        <li>Item one Inline</li>
-        <li>Item Two Inline</li>
-        <li>Item three Inline</li>
+    <ul class="list-non-bullet">
+        <li class="list-item-inline">Item one Inline</li>
+        <li class="list-item-inline">Item Two Inline</li>
+        <li class="list-item-inline">Item three Inline</li>
     </ul>
 
     <h3>Reverse Ordered list</h3>
-    <ol>
+    <ol reversed>
         <li>Java</li>
         <li>Python</li>
         <li>Javascript</li>
     </ol>
     <hr>
 
-    <h2>@navs</h2>
-    <nav>
-        <div>IamBrand</div>
-        <ul>
-            <li>
-                <a href="">Home</a>
+    <nav class="navigation">
+        <div class="header">IAMDEVELOPER</div>
+        <ul class="list-non-bullets nav-pills">
+            <li class="list-item-inline">
+                <a class="link" href="/">Home</a>
             </li>
-            <li>
-                <a href="">Projects</a>
+            <li class="list-item-inline">
+                <a class="link" href="">Projects</a>
             </li>
-            <li>
-                <a href="">About</a>
+            <li class="list-item-inline">
+                <a class="link" href="">About</a>
             </li>
         </ul>
     </nav>
-    <hr>
+
 
     <h2>@header</h2>
-    <header>
-        <img src="assets/avatar.svg" alt="avatar" />
-        <h1>Heading inside header</h1>
+    <header class="developer">
+        <img class="developer-img" src="assets/avatar.svg" alt="avatar" />
+        <h1 class="developer-header">Pratham Patel-<span class="developer-role">The Backend Engineer</span></h1>
     </header>
     <hr>
 
     <h2>@sections</h2>
-    <section>
-        <h3>@white section</h3>
-        <p>This will have white background</p>
+    <section class="section">
+        <div class="container container-center">
+            <h1>@white section</h1>
+            <p>This will have white background</p>
+        </div>
     </section>
-    <section>
-        <h3>@off-white section</h3>
-        <p>This will have gray background</p>
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>@off-white section</h1>
+            <p>This will have gray background</p>
+        </div>
     </section>
     <hr>
 
     <h2>@footer</h2>
-    <footer>
-        <div>Some small heading inside footer</div>
-        <ul>
-            <li>Social link1</li>
-            <li>Social link2</li>
-            <li>Social link3</li>
+    <footer class="footer">
+        <div class="footer-heading">Some small heading inside footer</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline">
+                <a href="\" class="link">Sociallink1</a></li>
+            <li class="list-item-inline">
+                <a href="\" class="link">Sociallink2</a>
+            </li>
+            <li class="list-item-inline">
+                <a href="\" class="link">Sociallink3</a>
+            </li>
         </ul>
     </footer>
 </body>
