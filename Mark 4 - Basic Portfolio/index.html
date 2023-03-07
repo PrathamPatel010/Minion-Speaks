@@ -3,10 +3,10 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Component Library</title>
+    <title>Pratham Patel</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -36,27 +36,27 @@
     <hr>
 
     <h2>@links</h2>
-    <a href="https://google.com">Primary link</a>
-    <a href="https://bing.com">Secondary link</a>
+    <a class="link link-primary" href="https://google.com">Primary link</a>
+    <a class="link link-secondary" href="https://bing.com">Secondary link</a>
     <hr>
 
     <h2>@Lists</h2>
     <h3>Unordered List</h3>
-    <ul>
+    <ul class="list-non-bullet">
         <li>Item one</li>
         <li>Item Two</li>
         <li>Item three</li>
     </ul>
 
     <h3>Unordered Inline List</h3>
-    <ul>
-        <li>Item one Inline</li>
-        <li>Item Two Inline</li>
-        <li>Item three Inline</li>
+    <ul class="list-non-bullet">
+        <li class="list-item-inline">Item one Inline</li>
+        <li class="list-item-inline">Item Two Inline</li>
+        <li class="list-item-inline">Item three Inline</li>
     </ul>
 
     <h3>Reverse Ordered list</h3>
-    <ol>
+    <ol reversed>
         <li>Java</li>
         <li>Python</li>
         <li>Javascript</li>
@@ -64,17 +64,17 @@
     <hr>
 
     <h2>@navs</h2>
-    <nav>
-        <div>IamBrand</div>
-        <ul>
-            <li>
-                <a href="">Home</a>
+    <nav class="navigation container">
+        <div class="nav-brand">IamBrand</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="">Home</a>
             </li>
-            <li>
-                <a href="">Projects</a>
+            <li class="list-item-inline">
+                <a class="link" href="">Projects</a>
             </li>
-            <li>
-                <a href="">About</a>
+            <li class="list-item-inline">
+                <a class="link" href="">About</a>
             </li>
         </ul>
     </nav>
