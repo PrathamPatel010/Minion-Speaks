@@ -3,7 +3,10 @@
 // alert(welomemsg);
 
 let btnTranslate = document.querySelector("#btn-translate");
-// console.log(btnTranslate);
-btnTranslate.addEventListener("click", function clickEventHandler() {
-    console.log(`clicked`);
-})
+let txtInput = document.querySelector("#txt-input");
+let outputDiv = document.querySelector("#txt-output");
+
+function clickHandler() {}
+btnTranslate.addEventListener("click", function clickHandler() {
+    outputDiv.innerText = "Hii gay" + txtInput.value;
+});

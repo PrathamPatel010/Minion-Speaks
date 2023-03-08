@@ -1,11 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@400;700&display=swap');
 body {
-    background-color: antiquewhite;
+    background-color: blanchedalmond;
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
-h1 {
-    padding-top: 0px;
+nav {
+    text-align: center;
+    background-color: yellow;
 }
 
-#btn-translate:hover {
-    color: aqua;
+.heading {
+    padding: 1rem;
+    font-size: 2rem;
+    text-align: center;
+    background-color: yellow;
+}
+
+#btn-translate {
+    margin: auto;
+    display: block;
+    align-items: center;
+}
+
+#txt-input {
+    width: 90%;
+    height: 10rem;
+    display: block;
+    margin: 1rem;
+}
+
+#txt-output {
+    display: block;
+    background-color: white;
+    border: 1px solid black;
+    height: 10rem;
+    width: 90%;
+    margin: 1rem;
+    padding: 1rem;
 }
