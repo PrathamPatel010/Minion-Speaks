@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@400;700&display=swap');
 body {
+    margin: 0 0;
     background-color: blanchedalmond;
     font-family: 'Merriweather', serif;
     font-family: 'Montserrat', sans-serif;
@@ -15,6 +16,19 @@ nav {
     font-size: 2rem;
     text-align: center;
     background-color: yellow;
+}
+
+.heading-footer {
+    font-weight: bold;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    background-color: #fde047;
 }
 
 #btn-translate {
