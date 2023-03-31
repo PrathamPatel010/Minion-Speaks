@@ -1,0 +1,21 @@
+body {
+    background-color: aqua;
+}
+
+#time {
+    padding-top: 5rem;
+    margin: auto;
+    text-align: center;
+}
+
+.container {
+    margin: auto;
+    text-align: center;
+    width: 20rem;
+    height: 20rem;
+    margin-top: 10rem;
+    padding: 5rem;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 15rem;
+}
